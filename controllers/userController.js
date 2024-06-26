@@ -1,5 +1,5 @@
 import {expressjwt} from "express-jwt";
-import User from "../models/User.js";
+import User from "../models/usermodel.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import errorHandler from "../utils/errorHandler.js";
